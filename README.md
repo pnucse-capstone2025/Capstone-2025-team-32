@@ -43,6 +43,8 @@ ASTRO (정연수(202255671) , 김현태(202055529))
 - **실시간 영상 전송**: Jetson Nano에서 YOLO 객체 인식 결과를 인코딩(H.264)하여 Ground Station으로 송출한다.  
 - **원격 제어**: Ground Station에서 Mission Planner를 통해 Pixhawk로 명령 전송.  
 
+<img width="819" height="546" alt="image" src="https://github.com/user-attachments/assets/0788692c-4c42-4731-892f-8cc91da23c00" />
+
 
 
 
@@ -56,6 +58,13 @@ ASTRO (정연수(202255671) , 김현태(202055529))
 - **추가 기능**:  
   - YOLO Confidence 값 기반으로 **임계값(Threshold 70%)**을 설정  
   - 일정 시간(예: 2초 이상) 조건 충족 시 **Guided 모드 전환** 및 **모터 제어** 수행  
+
+<img width="940" height="590" alt="image" src="https://github.com/user-attachments/assets/200ff9df-b63c-493f-aed6-d30ee786ed2a" />
+<img width="942" height="332" alt="image" src="https://github.com/user-attachments/assets/21eef1bb-19dd-460f-91e8-7f7275a0678e" />
+
+- **YOLO 돌린 화면**:
+<img width="881" height="468" alt="image" src="https://github.com/user-attachments/assets/232d2e87-bb40-4a05-b614-5e6ba4c5e8f8" />
+
 
 
 
