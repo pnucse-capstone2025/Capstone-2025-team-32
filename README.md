@@ -27,6 +27,8 @@ ASTRO (정연수(202255671) , 김현태(202055529))
 
 ## 3. 구성도
 ### 동작 흐름도
+<img width="1024" height="498" alt="image" src="https://github.com/user-attachments/assets/61c8828c-280b-4e1a-9ade-bca0df6b73e4" />
+
 1. **Camera (Intel RealSense D435i)** → 타겟 인식  
 2. **Jetson Nano (YOLOv5/TensorRT)** → 객체 탐지 및 판단  
 3. **Pixhawk (Flight Controller)** → 모터 제어, 비행 모드 전환  
