@@ -59,6 +59,29 @@ ASTRO (정연수(202255671) , 김현태(202055529))
   - YOLO Confidence 값 기반으로 **임계값(Threshold 70%)**을 설정  
   - 일정 시간(예: 2초 이상) 조건 충족 시 **Guided 모드 전환** 및 **모터 제어** 수행  
 
+## CUDA 기반 TensorRT 최적화 (INT8)
+
+본 프로젝트에서는 **YOLOv5 모델을 TensorRT 기반으로 최적화**하여 **PyTorch 원본 모델 대비 성능 향상**을 검증하였다.  
+
+- **환경**: NVIDIA Jetson Nano, Ubuntu 18.04, CUDA + TensorRT  
+- **테스트 툴**: `tegrastats` (GPU/CPU/메모리 사용량 모니터링)  
+- **비교 항목**:  
+  1. PyTorch 실행 (최적화 전)  
+  2. TensorRT INT8 엔진 실행 (최적화 후)  
+
+### 비교 그래프
+아래 그래프는 동일한 입력(실시간 영상 스트리밍) 조건에서의 성능 차이를 나타낸다.  
+
+- **X축**: 시간 (초)  
+- **Y축**: FPS (Frames Per Second)  
+- **파란색 선**: PyTorch (최적화 전)  
+- **주황색 선**: TensorRT INT8 (최적화 후)
+
+### 결과 분석
+- PyTorch 실행 시 평균 **6~8 FPS**  
+- TensorRT INT8 실행 시 평균 **18~20 FPS**  
+- 메모리 사용량 및 GPU Load가 감소하면서, 실시간 탐지에 적합한 성능 확보
+
 <img width="940" height="590" alt="image" src="https://github.com/user-attachments/assets/200ff9df-b63c-493f-aed6-d30ee786ed2a" />
 <img width="942" height="332" alt="image" src="https://github.com/user-attachments/assets/21eef1bb-19dd-460f-91e8-7f7275a0678e" />
 
