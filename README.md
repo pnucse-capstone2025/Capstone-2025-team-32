@@ -19,10 +19,9 @@ ASTRO (정연수(202255671) , 김현태(202055529))
 ## 2. 팀 소개
 | 이름       | 이메일                  | 역할                          |
 |------------|-------------------------|-------------------------------|
-| 김현태     | example01@pusan.ac.kr   | 프로젝트 총괄, 드론 하드웨어 구성 |
-| 홍길동     | example02@pusan.ac.kr   | Jetson Nano 환경 세팅, AI 모델 |
-| 이영희     | example03@pusan.ac.kr   | Pixhawk 제어, MAVLink 통신     |
-| 박철수     | example04@pusan.ac.kr   | 네트워크/UDP 스트리밍, Mission Planner 연동 |
+| 정연수     | example01@pusan.ac.kr   | 프로젝트 총괄, 드론 하드웨어 구성 , VPN 네트워크 구성|
+| 김현태     | tee9665@pusan.ac.kr   | Jetson Nano 환경 세팅, AI 모델 훈련및 최적화 , VPN 네트워크 구성|
+
 
 ---
 
