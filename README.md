@@ -89,6 +89,8 @@ ASTRO (정연수(202255671) , 김현태(202055529))
 <img width="881" height="468" alt="image" src="https://github.com/user-attachments/assets/232d2e87-bb40-4a05-b614-5e6ba4c5e8f8" />
 
 
+- **YOTUBE LINK**:
+  https://youtu.be/WwbLFykOQtg?si=qvitFMeauTRQY4bh 
 
 
 
