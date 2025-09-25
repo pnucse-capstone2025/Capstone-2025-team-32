@@ -92,8 +92,7 @@ ASTRO (정연수(202255671) , 김현태(202055529))
 
 
 
-
-- **YOTUBE LINK**:
+# 유튜브 링크 : 드론에서 YOLO 를 돌린 후 target 인식 시 guided 모드로 변경 후  hovering(제자리 멈춤)
   https://youtu.be/WwbLFykOQtg?si=qvitFMeauTRQY4bh 
 
 
