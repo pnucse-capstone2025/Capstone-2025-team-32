@@ -87,6 +87,9 @@ ASTRO (정연수(202255671) , 김현태(202055529))
 
 - **YOLO 돌린 화면**:
 <img width="881" height="468" alt="image" src="https://github.com/user-attachments/assets/232d2e87-bb40-4a05-b614-5e6ba4c5e8f8" />
+- **드론에서 YOLO 돌리고 Target 발견뒤 공중 hovering(제자리 멈춤) 스크린샷**:
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3977eaf9-5142-43e4-86c6-29f879d5694b" />
+
 
 
 - **YOTUBE LINK**:
