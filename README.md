@@ -94,8 +94,11 @@ ASTRO (정연수(202255671) , 김현태(202055529))
 1. window 컴퓨터에서 window_computer/color.sdp 파일을 cmd를 키고 실행한다 , 그리고 jetson nano 로 원격접속후 , code/perfect_hold_display.py 파일을 python python perfect_hold_display.py 로 실행하면 udp streaming 화면이 나온다
 
 
-# 유튜브 링크 : 드론에서 YOLO 를 돌린 후 target 인식 시 guided 모드로 변경 후  hovering(제자리 멈춤)
-  https://youtu.be/WwbLFykOQtg?si=qvitFMeauTRQY4bh 
+# 유튜브 링크 : target 인식 후 자동 하강 , 드론카메라 시점 
+  https://www.youtube.com/watch?v=Vai7mIXLj4c
+
+# 유튜브 링크 : target 인식 후 자동 하강 , 옆에서 본 드론 움직임 
+ https://youtu.be/RfEyx5kR5wU
 
 
 
